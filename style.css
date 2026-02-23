@@ -1,0 +1,118 @@
+            body {
+                font-family: 'Arial', sans-serif;
+                line-height: 1.8;
+                max-width: 1000px;
+                margin: 0 auto;
+                padding: 20px;
+                background: linear-gradient(135deg, #0a1428 0%, #1a2332 100%);
+                color: #e0e0e0;
+            }
+
+            .hero {
+                text-align: center;
+                padding: 50px 20px;
+                background: linear-gradient(135deg, #cc4125 0%, #ff6b00 50%, #1a472a 100%);
+                border-radius: 12px;
+                margin-bottom: 40px;
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+            }
+
+            h1 {
+                color: #fff;
+                font-size: 3.5em;
+                margin: 0 0 10px 0;
+                text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+                letter-spacing: 3px;
+            }
+
+            .tagline {
+                color: #e0e0e0;
+                font-size: 1.2em;
+                margin: 0;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            }
+
+            .game-section {
+                margin-bottom: 50px;
+                padding: 30px;
+                border-radius: 10px;
+                background-color: rgba(255, 255, 255, 0.03);
+            }
+
+            .tf2-section {
+                border-left: 6px solid #cc4125;
+                background: linear-gradient(135deg, rgba(204, 65, 37, 0.1) 0%, rgba(204, 65, 37, 0.05) 100%);
+            }
+
+            .titanfall-section {
+                border-left: 6px solid #ff8c00;
+                background: linear-gradient(135deg, rgba(255, 140, 0, 0.1) 0%, rgba(255, 140, 0, 0.05) 100%);
+            }
+
+            .game-title {
+                font-size: 2.5em;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                margin: 0 0 25px 0;
+                padding-bottom: 15px;
+                border-bottom: 3px solid;
+            }
+
+            .tf2-section .game-title {
+                color: #cc4125;
+                border-bottom-color: #cc4125;
+            }
+
+            .titanfall-section .game-title {
+                color: #ff8c00;
+                border-bottom-color: #ff8c00;
+            }
+
+            .feature {
+                background-color: rgba(255, 255, 255, 0.05);
+                padding: 20px;
+                margin: 15px 0;
+                border-radius: 6px;
+                transition: transform 0.3s, background-color 0.3s;
+            }
+
+            .tf2-section .feature {
+                border-left: 4px solid #cc4125;
+            }
+
+            .titanfall-section .feature {
+                border-left: 4px solid #ff8c00;
+            }
+
+            .feature:hover {
+                transform: translateX(8px);
+                background-color: rgba(255, 255, 255, 0.1);
+            }
+
+            h2, h3 {
+                margin-top: 0;
+                margin-bottom: 10px;
+            }
+
+            .tf2-section h3 {
+                color: #ff9966;
+            }
+
+            .titanfall-section h3 {
+                color: #ffb84d;
+            }
+
+            p {
+                color: #c0c0c0;
+                margin: 8px 0 0 0;
+            }
+
+            .footer {
+                text-align: center;
+                padding: 25px;
+                margin-top: 50px;
+                border-top: 3px solid #666;
+                color: #ff8c00;
+                font-size: 1.2em;
+                font-weight: bold;
+            }
